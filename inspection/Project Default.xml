@@ -4,7 +4,6 @@
   <inspection_tool class="AbstractMethodCallInConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AbstractMethodOverridesConcreteMethod" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AbstractMethodWithMissingImplementations" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="Annotator" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="AssignmentOrReturnOfFieldWithMutableType" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AssignmentToCatchBlockParameter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AssignmentToCollectionFieldFromParameter" enabled="true" level="WARNING" enabled_by_default="true">
@@ -61,11 +60,6 @@
     <option name="ignoreLocalVariables" value="false" />
     <option name="ignorePrivateMethodsAndFields" value="false" />
   </inspection_tool>
-  <inspection_tool class="DefaultFileTemplate" enabled="false" level="WARNING" enabled_by_default="false">
-    <option name="CHECK_FILE_HEADER" value="true" />
-    <option name="CHECK_TRY_CATCH_SECTION" value="true" />
-    <option name="CHECK_METHOD_BODY" value="true" />
-  </inspection_tool>
   <inspection_tool class="DefaultNotLastCaseInSwitch" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="EmptyClass" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignorableAnnotations">
@@ -88,8 +82,8 @@
   <inspection_tool class="ForLoopReplaceableByWhile" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreLoopsWithoutConditions" value="false" />
   </inspection_tool>
+  <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IncrementDecrementUsedAsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="InjectedReferences" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="InstanceofChain" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreInstanceofOnLibraryClasses" value="false" />
   </inspection_tool>
@@ -132,6 +126,7 @@
     <option name="ignoreLibraryCalls" value="true" />
   </inspection_tool>
   <inspection_tool class="LiteralAsArgToStringEquals" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LongLine" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MagicNumber" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MarkerInterface" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MethodCoupling" enabled="true" level="WARNING" enabled_by_default="true">
@@ -159,7 +154,6 @@
     <option name="m_limit" value="30" />
   </inspection_tool>
   <inspection_tool class="NonThreadSafeLazyInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="OCGlobalUnused" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ObsoleteCollection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreRequiredObsoleteCollectionTypes" value="false" />
   </inspection_tool>
@@ -170,6 +164,7 @@
   <inspection_tool class="ParametersPerMethod" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_limit" value="5" />
   </inspection_tool>
+  <inspection_tool class="ProblematicWhitespace" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PublicField" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreEnums" value="false" />
     <option name="ignorableAnnotations">
@@ -181,12 +176,14 @@
     <option name="ignoreSerializable" value="false" />
     <option name="ignoreCloneable" value="false" />
   </inspection_tool>
+  <inspection_tool class="RedundantSuppression" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SuppressionAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="SyntaxError" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="SystemGC" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SystemOutErr" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThisEscapedInConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="TodoComment" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TypeMayBeWeakened" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="useRighthandTypeAsWeakestTypeInAssignments" value="true" />
     <option name="useParameterizedTypeForCollectionMethods" value="true" />
